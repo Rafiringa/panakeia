@@ -1,0 +1,385 @@
+
+* {
+	font-family: arial;
+}
+@media all and (min-width: 1280px){
+
+#navigation {
+	width: 100%;
+	height: 50px;
+	background-color: #edeff1;
+	display: inline-block;
+	position: fixed;
+	margin-top: -10px;
+	padding-bottom: 10px;
+	z-index: 60;
+}
+.fa-rss {
+	font-size: 20px;
+}
+#logo {
+
+	display: inline-block;
+	margin-top: 3px;
+	margin-left: 15%;
+}
+#titre {
+	font-family: roboto;
+	display: inline-block;
+	font-style: bold;
+	font-size: 24px;
+	color: #31353e;
+}
+#sous-titre {
+	font-size: 11.5px;
+	color: #dd4b2b;
+	margin-top: -2px;
+}
+
+#list-menu {
+	font-family: roboto;
+	float: right;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+li {
+	display: inline-block;
+	margin: 15px;
+	margin-top: 6px;
+
+}
+a {
+	text-decoration: none;
+	color: #31353e;
+	font-size: 20px;
+}
+ul {
+	margin-right: 15%;
+}
+}
+
+#part-1 {
+	background-image: url("image1-1.jpg");
+	background-position:center;
+	background-size: cover;
+	width: 100%;
+	height: 1200px;
+	display: inline-block;
+	position: relative;
+	z-index: 50;
+}
+
+#boites {
+	width: 50%;
+	height: 40%;
+	display: inline-block;
+	margin-top: 30%;
+	position: absolute;
+	left: 23%;
+}
+
+#part-1-1 {
+	width: 30%;
+	height: 65%;
+	color: #edeff1;
+	text-align: center;
+	display: inline-block;
+	padding: 1%;
+	margin-left: 1.5%
+}
+.texte-1 {
+	font-style: bold;
+	font-size: 30px;
+}
+#part-1-2 {
+	width: 30%;
+	height: 65%;
+	color: #edeff1;
+	text-align: center;
+	display: inline-block;
+	padding: 1%;
+
+}
+#part-1-3 {
+	width: 30%;
+	height: 65%;
+	color: #edeff1;
+	text-align: center;
+	display: inline-block;
+	padding: 1%;
+}
+#mosaique1 {
+	background-image: url("image2.jpg");
+	background-size: cover
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+	margin-bottom: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	top: -160px;
+	left: 30px;
+}
+#mosaique2 {
+	background-image: url("image3.jpg");
+	background-size: cover
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+	margin-bottom: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	top: -160px;
+	left: 30px;
+}
+#mosaique3 {
+	background-image: url("image4.jpg");
+	background-size: cover
+	background-position: center;
+	width: 150px;
+	height: 150px;
+	border: 2px solid white;
+	margin-bottom: 20px;
+	display: inline-block;
+	border-radius: 50%;
+	top: -160px;
+	left: 30px;
+
+}
+.fond {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.8;
+}
+#bouton {
+	margin: 50px;
+	display: inline-block;
+	margin-left: 42%;
+}
+
+#part-2 {
+	width: 100%;
+	height: 800px;
+	background-color: #edeff1;
+	display: inline-block;
+	
+}
+.texte-3 {
+	color: #31353e;
+	font-family: roboto
+	font-style: bold;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: -2%;
+}
+
+#part-2-1 {
+	margin-top: 10%; 
+	margin-left: 46%;
+}
+
+#part-2-2 {
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	margin-left: 170px;
+	margin-top: 50px;
+	display: inline-block;
+}
+.mosaique-2 {
+	width: 100%;
+	height: 70%;
+}
+
+#part-2-3 {
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	display: inline-block;
+	margin-left: 0.5%;
+}
+#part-2-4 {
+	text-align: center;
+	width: 25%;
+	height: 50%;
+	display: inline-block;
+	margin-left: 0.5%;
+}
+
+#part-3 {
+	width: 100%;
+	height: 200px	;
+	background-image: url("image5.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+
+#part-3-1{
+	width: 20%;
+	height: 60%;
+	display: inline-block;
+	color: #edeff1;
+	z-index: 40;
+	position: absolute;
+	left: 39%;
+}
+
+#fond-2 {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.6;
+	z-index: 20;
+}
+
+#partie-4 {
+	width: 100%;
+	height: 750px;
+	background-color: white;
+}
+
+#partie-4-1 {
+	width: 70%;
+	height: 320px;
+	margin-top: 50px;
+	margin-left: 240px;
+	display: inline-block;
+}
+
+#partie-4-2 {
+	width: 70%;
+	height: 320px;
+	margin-top: -5px;
+	margin-left: 240px;
+	display: inline-block;
+}
+
+#partie-texte-1 {
+	width: 35%;
+	height: 100%;
+	display: inline-block;
+	margin: 20px;
+	float: left;
+	margin-left: 12%;
+	padding-top: 20px;
+}
+
+#partie-champs-1 {
+	width: 35%;
+	height: 90%	;
+	display: inline-block;
+	margin: 20px;
+	border: 1px solid whitesmoke;
+	background-color: white;
+}
+
+#partie-champs-2 {
+	width: 35%;
+	height: 90%;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid whitesmoke;
+	background-color: white;
+	margin-left: 9%;
+}
+
+#partie-texte-2 {
+	width: 35%;
+	height: 100%;
+	display: inline-block;
+	margin-top: 40px;
+	float: right;
+	margin-right: 17%;
+}
+
+.texte-2-1 {
+	color: grey;
+}
+
+#partie-5 {
+	width: 100%;
+	height: 320px;
+	background-color: #d75d0e;
+	display: inline-block;
+}
+
+#textes-5-1 {
+	width: 30%
+	height: 80%;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin-left: 15%;
+	position: absolute;
+}
+
+#textes-5-2 {
+	width: 30%
+	height: 80%;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin-left: 15%;
+	position: absolute;
+	left: 26%;
+}
+
+#textes-5-3 {
+	width: 30%
+	height: 80%;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin-left: 17%; 
+	position: absolute;
+	left: 50%;
+}
+
+#sous-partie5 {
+	width: 70%;
+	height: 100%;
+	margin-left: 16%;
+	margin-top: 2%;
+	display: inline-block;
+	position: relative;
+}
+
+#partie-6 {
+	width: 100%;
+	height: 320px;
+	background-image: url("image5.jpg");
+	background-size: cover;
+	background-position: right;
+	display: inline-block;
+	position: relative;
+}
+
+#fond-6 {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.6;
+	display: inline-block;
+	position: absolute;
+	z-index: 15;
+}
+
+#textes-6 {
+	top: 40%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	color: lightgrey;
+	z-index: 25;
+	position: absolute;
+}
+
